@@ -2,5 +2,5 @@ FROM java
 ADD ./target/myproject-0.0.1-SNAPSHOT.jar /myproject-0.0.1-SNAPSHOT.jar
 ADD ./run.sh /run.sh
 RUN chmod a+x /run.sh
-EXPOSE 8081:8081
+EXPOSE 8686:8686
 CMD /run.sh
